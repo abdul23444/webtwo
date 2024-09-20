@@ -1,0 +1,211 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header {
+    justify-content: space-between;
+    border-bottom: 1px rgb(62, 62, 62) solid;
+    padding: 1px 5px;
+}
+
+header h6 {
+    padding-top: 5px;
+}
+
+header .dropdown button:hover {
+    color: rgb(222, 122, 0);
+    border: none;
+}
+
+.navbar {
+    background-color: rgb(218, 255, 84);
+    position: sticky; top: 0%;
+    z-index: 99;
+}
+
+.navbar img {
+    width: 8%;
+}
+
+.navbar .nav-link :hover {
+    color: rgb(222, 122, 0);
+}
+
+.navbar .nav-item :hover {
+    color: rgb(222, 122, 0);
+}
+
+.navbar .nav-item button,
+header .dropdown button {
+    border: none;
+}
+
+.navbar .form input {
+    width: 280px;
+    border: none;
+    padding: 0px 3px;
+}
+
+.navbar li,
+.navbar .nav-item button {
+    font-size: 18px;
+}
+
+.search {
+    background-color: white;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.logo i {
+    font-size: 22px;
+    padding: 15px 5px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.carousel-inner .one {
+    height: 500px;
+    background-image: url(./img3.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.carousel-inner .two {
+    height: 500px;
+    background-image: url(./img1\ \(5\).jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.carousel-inner .three {
+    height: 500px;
+    background-image: url(./img2.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.carousel-inner .one h1 {
+    font-size: 100px;
+    color: aliceblue;
+    text-shadow: 1px 1px 15px rgb(255, 230, 230);
+}
+
+.carousel-inner .one h2 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.carousel-inner .one p {
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: 0px 0px 15px black;
+}
+
+.carousel-inner .one p span {
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px red
+}
+
+.for-down {
+    padding: 100px 0px 0px 50px;
+}
+
+.carousel-inner .two h1 {
+    font-size: 100px;
+    color: aliceblue;
+    text-shadow: 1px 1px 15px rgb(255, 213, 0);
+}
+
+.carousel-inner .two h2 {
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgb(0, 113, 113);
+}
+
+.carousel-inner .three h1 {
+    font-size: 100px;
+    color: aliceblue;
+    text-shadow: 1px 1px 15px rgb(83, 246, 255);
+}
+
+.carousel-inner .three h2 {
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px aqua;
+}
+
+.button .btn {
+    border-color: rgb(222, 122, 0);
+    color: rgb(222, 122, 0);
+}
+
+.button .btn:hover {
+    background-color: rgb(222, 122, 0);
+    color: white;
+}
+
+.card-body .fa-star{ color: rgb(222, 122, 0);}
+.second-card1{ background-image: url(./unuse1.jpeg); height: 280px; background-size: cover; box-shadow: 1px 0px 8px rgb(77, 77, 77);}
+.second-card2{ background-image: url(./m1\ \(2\).jpg); height: 280px; background-size: cover; box-shadow:  1px 0px 8px rgb(77, 77, 77);}
+.second-card3{ background-image: url(./img.jpg); height: 280px; background-size: cover; box-shadow:  1px 0px 8px rgb(77, 77, 77);}
+.second-card4{ background-image: url(./img11\ \(1\).jpg); height: 280px; background-size: cover; box-shadow:  1px 0px 8px rgb(77, 77, 77);}
+
+.second-card1 .h1{ text-shadow: 2px 2px 5px white;}
+.second-card2 .h1{ text-shadow: 5px 2px 5px white;}
+.second-card3 .h1{ text-shadow: 5px 2px 5px white;}
+.second-card4 .h1{ text-shadow: 2px 2px 5px white;}
+
+.onecard{ height: 240px;}
+
+
+.main li{ list-style-type: none; padding: 10px 0px;}
+.main{padding: 83px 0px 0px 0px;}
+.main1 i{ padding: 15px; font-size: 25px; background-color: white; border-radius: 100%;}
+
+.upp{ transition: all 0.5s;}
+.uper:hover{ transform: translateY(-12px); box-shadow: 0px 0px 5px black; border-radius: 10px;}
+.uper1:hover{ transform: translateY(-12px); box-shadow: 0px 0px 5px black; border-radius: 10px;}
+.uper2:hover{ transform: translateY(-12px); box-shadow: 0px 0px 5px black; border-radius: 10px;}
+.uper3:hover{ transform: translateY(-12px); box-shadow: 0px 0px 5px black; border-radius: 10px;}
+
+
+.hover-list-item li{transition: all 1s;}
+.hover-list-item li:hover{transform: translateX(10px); color: rgb(244, 144, 0);}
+.cardwrapper{ padding: 10px;}
+
+
+
+
+
+
+
+@media ( max-width:575px)
+{
+   header .d-down{ display: none;}
+   /* .cardwrapper{ padding: 0px;} */
+}
+
+@media (max-width:500px){
+    .d-down{ display: none!important;}
+    header h6{ margin: auto;}
+}
+
+@media( max-width:1200px) {
+    .form {
+        display: none!important;
+    }
+    
+}
+
+
+
+

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my third website</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="d-flex py-2 bg-light">
+        <h6>Free shipping for all order</h6>
+        <div class="d-flex d-down">
+            <div class="dropdown">
+                <button type="BUTTON" class="btn dropdown-toggle  p-0 px-3" data-bs-toggle="dropdown">$USD</button>
+                <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item px-2">$RUPEE</a></li>
+                    <hr>
+                    <li><a class="dropdown-item px-2">$USD</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button type="BUTTON" class="btn dropdown-toggle  p-0 " data-bs-toggle="dropdown"><i
+                        class="fa-solid fa-flag px-1"></i>ENGLISH</button>
+                <ul class="dropdown-menu  ">
+                    <li><a class="dropdown-item px-2">ENGLISH</a></li>
+                    <hr>
+                    <li><a class="dropdown-item px-2">SPANISH</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header complete -->
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-xl bg-light p-0">
+        <div class="container">
+            <img src="./pngegg.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: space-between;">
+                <ul class="navbar-nav ">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <div class="dropdown">
+                            <button type="BUTTON" class="btn dropdown-toggle  p-2 "
+                                data-bs-toggle="dropdown">Shop</button>
+                            <ul class="dropdown-menu  ">
+                                <li><a class="dropdown-item px-2 dropdown-toggle ">Rings</a></li>
+                                <hr>
+                                <li><a class="dropdown-item px-2 dropdown-toggle">Ear-Rings</a></li>
+                                <hr>
+                                <li><a class="dropdown-item px-2 dropdown-toggle">Necklace</a></li>
+                                <hr>
+                                <li><a class="dropdown-item px-2 dropdown-toggle">Bracelet</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
+
+                <div class="form d-flex">
+                    <div class="search d-flex rounded-pill ">
+                        <i class="fa-solid fa-magnifying-glass" style="font-size: 21px; padding: 15px;"></i>
+                        <input type="text" placeholder="search product" style="border: none;">
+                    </div>
+                    <div class="logo">
+                        <i class="fa-solid fa-user"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar complete  -->
+    <!-- Carousel start -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+
+        <div class="carousel-inner">
+            <div class="carousel-item active one">
+                <div class="container for-down">
+                    <h1>ASYA COMPANY</h1>
+                    <h2>ALL TYPE GOLD JEWELRY</h2>
+                    <p>Budget Jewellery <br>Starting At <br><span> $295.99</span></p>
+                </div>
+            </div>
+            <div class="carousel-item two">
+                <div class="container for-down">
+                    <h1>Necklace</h1>
+                    <h2>All type golden Necklace</h2>
+                </div>
+            </div>
+            <div class="carousel-item three">
+                <div class="container for-down">
+                    <h1>ASYA COMPANY</h1>
+                    <h2>ALL TYPE SILVER JEWELRY</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Carousel end -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-xl-3 bg-light  uper upp col-sm-6">
+                <h4> <i class="fa-solid fa-truck-fast p-3"></i>Free shipping</h4>
+                <p class="h6 mx-3">Free shipping on all us order and above $210</p>
+            </div>
+            <div class="col-xl-3 bg-light  uper1 upp col-sm-6">
+                <h4> <i class="fa-solid fa-clock p-3"></i>Support 24/7</h4>
+                <p class="h6 mx-3">Contact us 24 hours in day</p>
+            </div>
+            <div class="col-xl-3 bg-light  uper2 upp col-sm-6">
+                <h4> <i class="fa-solid fa-arrow-rotate-left p-3"></i>30 days return</h4>
+                <p class="h6 mx-3">Simply return it within 30 days for an exchange</p>
+            </div>
+            <div class="col-xl-3 bg-light  uper3 upp col-sm-6">
+                <h4> <i class="fa-solid fa-money-bill p-3"></i>100% Payment secure</h4>
+                <p class="h6 mx-3">We ensure secure payment with PEV</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="h1 text-center">New Arrivals</div>
+        <div class="h3 text-center">Add new arrivals to weekly lineup</div>
+
+        <!-- button -->
+        <div class="container px-5 text-center mt-4 button">
+            <button class="btn btn-outline-primary rounded-pill px-4 mx-3" data-bs-toggle="collapse"
+                data-bs-target="#demo1">Bracelets</button>
+            <button class="btn btn-outline-primary rounded-pill px-4  mx-3" data-bs-toggle="collapse"
+                data-bs-target="#demo2">Rings</button>
+            <button class="btn btn-outline-primary rounded-pill px-4  mx-3" data-bs-toggle="collapse"
+                data-bs-target="#demo3">Necklace</button>
+        </div>
+    </div>
+    <!-- button end  -->
+
+    <div class="container d-flex  p-0 mt-5">
+        <div class="row">
+            <div class="cardWrapper col-lg-3 col-sm-6">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./unuse2.jpeg" alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 7</div>
+                            <div class="card-title h3 mt-1">Luxury gold rings</div>
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$109.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6">
+
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./Chic Silver Plated Necklace & Earrings Red Rhinestone Crystal Sets.jpeg"
+                            alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 5</div>
+                            <div class="card-title h3 mt-1">Luxury gold Neckless</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$562.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./unuse3.jpeg" alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 6</div>
+                            <div class="card-title h3 mt-1">Luxury gold full set</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$799.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./aydin-ghadakchi-lamor-1BBlGVr2_Yw-unsplash.jpg" alt=""
+                            style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 7</div>
+                            <div class="card-title h3 mt-1">Luxury gold Bracelet</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$259.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container my-5  ">
+        <div class="row">
+            <div class="col-lg-6  p-2">
+                <div class="col-lg-12 second-card1 rounded p-5 text-end ">
+                    <div class="h3 text-white">Beautiful</div>
+                    <div class="h1">Boys ring</div>
+                    <div class="h6"><a href="#" class="text-white"> Shop now<i
+                                class="fa-solid fa-arrow-right p-2 h6"></i></a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-2 ">
+                <div class="col-lg-12 second-card2 rounded p-5">
+                    <div class="h3 text-white">Beautiful</div>
+                    <div class="h1">Wedding ring</div>
+                    <div class="h6"><a href="#" class="text-white"> Shop now<i
+                                class="fa-solid fa-arrow-right p-2 h6"></i></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-lg-6  p-2">
+                <div class="col-lg-12 second-card3 rounded p-5 text-end">
+                    <div class="h3 text-white ">Beautiful</div>
+                    <div class="h1">Girls ring</div>
+                    <div class="h6"><a href="#" class="text-white"> Shop now<i
+                                class="fa-solid fa-arrow-right p-2 h6"></i></a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-2 ">
+                <div class="col-lg-12 second-card4 rounded p-5">
+                    <div class="h3 text-white">Beautiful</div>
+                    <div class="h1">WCouple ring</div>
+                    <div class="h6 "><a href="#" class="text-white"> Shop now
+                            <i class="fa-solid fa-arrow-right p-2 h6"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="h3 text-center">OUR PRODUCTS</div>
+        <div class="h5 text-center">Add new arrivals to weekly lineup</div>
+    </div>
+
+
+
+
+
+    <div class="container d-flex  p-0">
+        <div class="row">
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./unuse2.jpeg" alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 7</div>
+                            <div class="card-title h3 mt-1">Luxury gold rings</div>
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$109.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./Chic Silver Plated Necklace & Earrings Red Rhinestone Crystal Sets.jpeg"
+                            alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 5</div>
+                            <div class="card-title h3 mt-1">Luxury gold Neckless</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$562.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./unuse3.jpeg" alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 6</div>
+                            <div class="card-title h3 mt-1">Luxury gold full set</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$799.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./aydin-ghadakchi-lamor-1BBlGVr2_Yw-unsplash.jpg" alt=""
+                            style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 7</div>
+                            <div class="card-title h3 mt-1">Luxury gold Bracelet</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$259.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex  p-0">
+        <div class="row">
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./unuse3.jpeg" alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 7</div>
+                            <div class="card-title h3 mt-1">Luxury gold rings</div>
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$109.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./Gold Silver Foil Kundan Indian Asian Choker Necklace Jewellery Set Wedding Party — Glimour Jewellery.jpeg"
+                            alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 5</div>
+                            <div class="card-title h3 mt-1">Luxury gold Neckless</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$562.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./img1 (1).jpg" alt="" style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 6</div>
+                            <div class="card-title h3 mt-1">Luxury gold full set</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$799.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper col-lg-3 col-sm-6" style="padding: 10px;">
+                <div class="col-lg-12 text-center rounded-pill ">
+                    <div class="card" style="box-shadow: 0px 0px 10px rgb(70, 70, 70);">
+                        <img src="./aydin-ghadakchi-lamor-1BBlGVr2_Yw-unsplash.jpg" alt=""
+                            style="width:100%; height: 280px; border-radius: 5px;">
+                        <div class="card-body  onecard">
+                            <div class="card-text mt-3">MANUFACTURER 7</div>
+                            <div class="card-title h3 mt-1">Luxury gold Bracelet</div>
+
+                            <div class="star-box mt-3">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="card-title h4 mt-3">$259.21</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 bg-light">
+        <div class="container text-center p-5" style="text-align: center;">
+            <div class="h1 ">Client A-S THAKUR</div>
+            <div class="h5 ">What they say</div>
+            <img src="./Chic Silver Plated Necklace & Earrings Red Rhinestone Crystal Sets.jpeg"
+                class="rounded-circle my-4" alt="" style="width: 10%;">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus voluptatibus cumque, sed magnam nam
+                eligendi quisquam suscipit esse in voluptatem tempore error sint ipsum. Molestias provident soluta
+                tempore corporis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut sapiente
+                dolores incidunt excepturi quaerat quam expedita temporibus fugiat sunt voluptas ratione ipsum magnam,
+                ex quo rerum rem, pariatur consectetur.
+            </p>
+            <i class="fa fa-low-vision h3 p-1 mt-2" aria-hidden="true"></i>
+            <div class="main">
+                <h2>jeni right</h2>
+                <p>not define</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-4 p-2 col-md-6">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./unuse2.jpeg" alt="" style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver locket</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$145</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-2 col-md-6">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./img3.jpg" alt="" style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver bird rings</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$189</h5>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 p-2 col-md-12">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./img1 (5).jpg" alt="" style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver rings</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$154</h5>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="col-lg-4 p-2 col-md-6">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./20 Engagement Ring Inspiration to try this year 💖💖💖💖.jpeg" alt=""
+                        style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver locket</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$185</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-2 col-md-6">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./unuse1.jpeg" alt="" style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver bird rings</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$89</h5>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 p-2 col-md-12">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./Natural Amethyst & Water Drop Pendant Bracelet freeshipping - Deegnt.jpeg" alt=""
+                        style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver rings</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$95</h5>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 p-2 col-md-6">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./unuse3.jpeg" alt="" style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver locket</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$125</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-2 col-md-6">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./img.jpg" alt="" style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver bird rings</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$144</h5>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 p-2 col-md-12 ">
+                <div class="col-lg-12 bg-light d-flex rounded" style="box-shadow: 0px 0px 8px black;">
+                    <img src="./img2.jpg" alt="" style="width: 120px; height: 133px;">
+                    <div class="p-3">
+                        <P class="m-0">MANUFACTURER 4</P>
+                        <H4 class="m-0">Silver rings</H4>
+                        <div class="star-box " style="color: rgb(244, 144, 0);">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="m-0">$100</h5>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container my-5">
+        <div class="h3 text-center">FROM OUR BLOG</div>
+        <div class="h6 text-center">There are lates blog postt </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 p-2">
+                <div class="colo-lg-12 ">
+                    <img src="./aydin-ghadakchi-lamor-1BBlGVr2_Yw-unsplash.jpg" alt class="rounded"
+                        style="width: 100%;">
+                    <div class="cont p-3">
+                        <div class="h4">This is fourth post for blog</div>
+                        <p><i class="fas fa-calendar-check    "></i> 25/1/2000 <i
+                                class="fa-solid fa-clock    "></i>14:00 PM</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio corporis beatae unde fuga
+                            voluptatem? Magnam ullam facere voluptas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-2">
+                <div class="colo-lg-12 ">
+                    <img src="./aydin-ghadakchi-lamor-1BBlGVr2_Yw-unsplash.jpg" alt class="rounded"
+                        style="width: 100%;">
+                    <div class="cont p-3">
+                        <div class="h4">This is fourth post for blog</div>
+                        <p><i class="fas fa-calendar-check    "></i> 25/1/2000 <i
+                                class="fa-solid fa-clock    "></i>14:00 PM</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio corporis beatae unde fuga
+                            voluptatem? Magnam ullam facere voluptas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-2" aria-hidden="false">
+                <div class="colo-lg-12 ">
+                    <img src="./aydin-ghadakchi-lamor-1BBlGVr2_Yw-unsplash.jpg" alt class="rounded"
+                        style="width: 100%;">
+                    <div class="cont p-3">
+                        <div class="h4">This is fourth post for blog</div>
+                        <p><i class="fas fa-calendar-check    "></i> 25/1/2000 <i
+                                class="fa-solid fa-clock    "></i>14:00 PM</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio corporis beatae unde fuga
+                            voluptatem? Magnam ullam facere voluptas.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- <div class="container-fluid bg-light mt-5">
+        <div class="container">
+            <div class="row ">
+                <div class="d-flex">
+                    <div class=" p-3" style="width: 30%;">
+                        <img src="./image/pngegg.png" alt="" style="width: 200px;">
+                        <p class="h6"> <i class="fa fa-home px-2 my-3" aria-hidden="true"></i> 5454-6251 Breakindighr
+                            USA</p>
+                        <p class="h6"><i class="fa fa-phone px-2 my-3" aria-hidden="true"></i>+0542.002.1251</p>
+                        <div class="h6"><i class="fab fa-facebook-messenger px-2 my-3"></i> messege@abdul.com</div>
+                        <div class="h6"><i class="fas fa-clock   px-2 "></i> working 24/7</div>
+                    </div>
+                    <div class="main mx-2" style="width: 20%;">
+                        <ul class="hover-list-item">
+                            <div class="h4">INFORMATION</div>
+                            <li>DELIVERY</li>
+                            <li>ABOUT US</li>
+                            <li>SECURE PAYMENT</li>
+                            <li>CONTACT US</li>
+                            <li>SITE MAP</li>
+                        </ul>
+                    </div>
+                    <div class="main mx-2" style="width: 20%;">
+                        <ul class=" hover-list-item">
+                            <div class="h4 ">CUSTOM LINK</div>
+                            <li>DELIVERY</li>
+                            <li>ABOUT US</li>
+                            <li>SECURE PAYMENT</li>
+                            <li>CONTACT US</li>
+                            <li>SITE MAP</li>
+                        </ul>
+                    </div>
+                    <div class="main" style="width: 30%;">
+                        <ul class="">
+                            <div class="h4">SIGN UP TO NEW LETTER</div>
+                            <li>Sign up for our e-mail to get latest news.</li>
+                            <li><input type="text" placeholder="Your Email-address"
+                                    style="border: none; padding: 5px 5px; width: 100%;"></li>
+                            <li>
+                                <div class="main1">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+
+</body>
+
+</html>
